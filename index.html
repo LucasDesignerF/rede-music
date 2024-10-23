@@ -52,6 +52,20 @@
             background-color: #444; /* Hover do botão do GitHub */
             transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
         }
+        .discord-icon-button {
+            display: inline-block; /* Para que fique lado a lado com os outros botões */
+            width: 50px; /* Largura do botão quadrado */
+            height: 50px; /* Altura do botão quadrado */
+            background-color: #7289da; /* Cor de fundo */
+            border-radius: 5px; /* Bordas arredondadas */
+            overflow: hidden; /* Para esconder parte da imagem que sai do botão */
+            margin: 5px; /* Margem entre os botões */
+        }
+        .discord-icon-button img {
+            width: 100%; /* Largura total da imagem */
+            height: 100%; /* Altura total da imagem */
+            object-fit: cover; /* Para cobrir o botão sem distorção */
+        }
         .bot-image {
             width: 100%; /* Largura total */
             max-width: 600px; /* Largura máxima para telas maiores */
@@ -73,6 +87,9 @@
     <p>Este bot de música para Discord permite que os usuários reproduzam músicas diretamente de links do YouTube ou arquivos de áudio locais. Com uma interface de comando intuitiva, ele oferece funcionalidades como tocar, pausar, retomar e pular músicas.</p>
     <a class="button discord-button" href="https://discord.com/oauth2/authorize?client_id=1298229980039483392&permissions=8&integration_type=0&scope=bot" target="_blank">Adicionar Bot 🤖</a>
     <a class="button github-button" href="https://github.com/LucasDesignerF/python-music-bot" target="_blank">Ver Repositório no GitHub 📦</a>
+    <a class="discord-icon-button" href="https://discord.gg/z5SkRN495p" target="_blank">
+        <img src="https://imgur.com/9Pilntf.png" alt="Logo do Discord">
+    </a>
     <footer>
         &copy; 2019-2024 Rede Gamer - Todos os direitos reservados.
     </footer>
