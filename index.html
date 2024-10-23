@@ -12,7 +12,7 @@
             background-color: #2c2f33;
             color: #ffffff;
             text-align: center;
-            padding: 50px;
+            padding: 20px; /* Menos padding para telas pequenas */
             margin: 0;
             display: flex;
             flex-direction: column;
@@ -20,22 +20,23 @@
         }
         h1 {
             color: #7289da;
-            font-size: 2.5em;
+            font-size: 2em; /* Ajuste para tamanho da fonte */
             margin-bottom: 20px;
         }
         p {
-            font-size: 1.2em;
+            font-size: 1em; /* Ajuste para tamanho da fonte */
             margin-bottom: 30px;
-            max-width: 600px;
+            max-width: 90%; /* Ajuste a largura máxima em porcentagem */
         }
         .button {
             color: #ffffff;
             text-decoration: none;
-            padding: 15px 25px;
+            padding: 10px 20px; /* Ajuste de padding */
             border-radius: 5px;
             margin: 5px; /* Margem entre os botões */
             display: inline-block; /* Para que fiquem lado a lado */
             transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+            font-size: 1em; /* Ajuste para tamanho da fonte */
         }
         .discord-button {
             background-color: #7289da; /* Cor do botão do Discord */
@@ -52,8 +53,9 @@
             transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
         }
         .bot-image {
-            width: 600px; /* Largura da imagem */
-            height: 337.34px; /* Altura da imagem */
+            width: 100%; /* Largura total */
+            max-width: 600px; /* Largura máxima para telas maiores */
+            height: auto; /* Altura automática para manter a proporção */
             margin: 20px 0; /* Margem acima e abaixo da imagem */
             border-radius: 10px; /* Cantos arredondados para a imagem */
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra para a imagem */
@@ -72,7 +74,7 @@
     <a class="button discord-button" href="https://discord.com/oauth2/authorize?client_id=1298229980039483392&permissions=8&integration_type=0&scope=bot" target="_blank">Adicionar Bot 🤖</a>
     <a class="button github-button" href="https://github.com/LucasDesignerF/python-music-bot" target="_blank">Ver Repositório no GitHub 📦</a>
     <footer>
-        &copy; Rede Bots - by Rede Gamer - Since 2019-2024 - Todos os direitos reservados.
+        &copy; 2019-2024 Rede Gamer - Todos os direitos reservados.
     </footer>
 </body>
 </html>
