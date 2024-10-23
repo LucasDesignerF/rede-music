@@ -17,16 +17,25 @@
         h1 {
             color: #7289da;
         }
-        a {
+        .button {
             color: #ffffff;
             text-decoration: none;
-            background-color: #7289da;
             padding: 10px;
             border-radius: 5px;
             margin: 5px; /* Margem entre os botões */
+            display: inline-block; /* Para que fiquem lado a lado */
         }
-        a:hover {
-            background-color: #5b6eae;
+        .discord-button {
+            background-color: #7289da; /* Cor do botão do Discord */
+        }
+        .discord-button:hover {
+            background-color: #5b6eae; /* Hover do botão do Discord */
+        }
+        .github-button {
+            background-color: #333; /* Cor escura para o botão do GitHub */
+        }
+        .github-button:hover {
+            background-color: #444; /* Hover do botão do GitHub */
         }
         .bot-image {
             width: 600px; /* Largura da imagem */
@@ -39,8 +48,7 @@
     <h1>🎶 Rede Music, o seu mais novo companheiro de Call! 🤖</h1>
     <img class="bot-image" src="https://imgur.com/d2T7wYy.png" alt="Logo do Bot"> <!-- Imagem do bot -->
     <p>Adicione o bot ao seu servidor usando o link abaixo:</p>
-    <a href="https://discord.com/oauth2/authorize?client_id=1298229980039483392&permissions=8&integration_type=0&scope=bot" target="_blank">Adicionar Bot 🤖</a>
-    <br>
-    <a href="https://github.com/LucasDesignerF/python-music-bot" target="_blank">Ver Repositório no GitHub 📦</a>
+    <a class="button discord-button" href="https://discord.com/oauth2/authorize?client_id=1298229980039483392&permissions=8&integration_type=0&scope=bot" target="_blank">Adicionar Bot 🤖</a>
+    <a class="button github-button" href="https://github.com/LucasDesignerF/python-music-bot" target="_blank">Ver Repositório no GitHub 📦</a>
 </body>
 </html>
