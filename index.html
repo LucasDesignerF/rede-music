@@ -12,7 +12,7 @@
             background-color: #2c2f33;
             color: #ffffff;
             text-align: center;
-            padding: 20px; /* Menos padding para telas pequenas */
+            padding: 20px;
             margin: 0;
             display: flex;
             flex-direction: column;
@@ -20,59 +20,64 @@
         }
         h1 {
             color: #7289da;
-            font-size: 2em; /* Ajuste para tamanho da fonte */
+            font-size: 2em;
             margin-bottom: 20px;
         }
         p {
-            font-size: 1em; /* Ajuste para tamanho da fonte */
+            font-size: 1em;
             margin-bottom: 30px;
-            max-width: 90%; /* Ajuste a largura máxima em porcentagem */
+            max-width: 90%;
+        }
+        .button-container {
+            display: flex; /* Alinha os botões lado a lado */
+            justify-content: center; /* Centraliza os botões */
+            margin-bottom: 20px; /* Espaço abaixo dos botões */
         }
         .button {
             color: #ffffff;
             text-decoration: none;
-            padding: 10px 20px; /* Ajuste de padding */
+            padding: 10px 20px;
             border-radius: 5px;
-            margin: 5px; /* Margem entre os botões */
-            display: inline-block; /* Para que fiquem lado a lado */
-            transition: background-color 0.3s, transform 0.3s; /* Transição suave */
-            font-size: 1em; /* Ajuste para tamanho da fonte */
+            margin: 5px;
+            display: inline-block;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 1em;
         }
         .discord-button {
             background-color: #7289da; /* Cor do botão do Discord */
         }
         .discord-button:hover {
             background-color: #5b6eae; /* Hover do botão do Discord */
-            transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
+            transform: translateY(-3px);
         }
         .github-button {
             background-color: #333; /* Cor escura para o botão do GitHub */
         }
         .github-button:hover {
             background-color: #444; /* Hover do botão do GitHub */
-            transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
+            transform: translateY(-3px);
         }
         .discord-icon-button {
-            display: inline-block; /* Para que fique lado a lado com os outros botões */
-            width: 50px; /* Largura do botão quadrado */
-            height: 50px; /* Altura do botão quadrado */
-            background-color: #7289da; /* Cor de fundo */
-            border-radius: 5px; /* Bordas arredondadas */
-            overflow: hidden; /* Para esconder parte da imagem que sai do botão */
-            margin: 5px; /* Margem entre os botões */
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background-color: #7289da;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 5px;
         }
         .discord-icon-button img {
-            width: 100%; /* Largura total da imagem */
-            height: 100%; /* Altura total da imagem */
-            object-fit: cover; /* Para cobrir o botão sem distorção */
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         .bot-image {
-            width: 100%; /* Largura total */
-            max-width: 600px; /* Largura máxima para telas maiores */
-            height: auto; /* Altura automática para manter a proporção */
-            margin: 20px 0; /* Margem acima e abaixo da imagem */
-            border-radius: 10px; /* Cantos arredondados para a imagem */
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra para a imagem */
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
         }
         footer {
             margin-top: 30px;
@@ -85,11 +90,15 @@
     <h1>🎶 Rede Music, o seu mais novo companheiro de Call! 🤖</h1>
     <img class="bot-image" src="https://imgur.com/d2T7wYy.png" alt="Logo do Bot"> <!-- Imagem do bot -->
     <p>Este bot de música para Discord permite que os usuários reproduzam músicas diretamente de links do YouTube ou arquivos de áudio locais. Com uma interface de comando intuitiva, ele oferece funcionalidades como tocar, pausar, retomar e pular músicas.</p>
-    <a class="button discord-button" href="https://discord.com/oauth2/authorize?client_id=1298229980039483392&permissions=8&integration_type=0&scope=bot" target="_blank">Adicionar Bot 🤖</a>
-    <a class="button github-button" href="https://github.com/LucasDesignerF/python-music-bot" target="_blank">Ver Repositório no GitHub 📦</a>
-    <a class="discord-icon-button" href="https://discord.gg/z5SkRN495p" target="_blank">
-        <img src="https://imgur.com/9Pilntf.png" alt="Logo do Discord">
-    </a>
+    
+    <div class="button-container">
+        <a class="button discord-button" href="https://discord.com/oauth2/authorize?client_id=1298229980039483392&permissions=8&integration_type=0&scope=bot" target="_blank">Adicionar Bot 🤖</a>
+        <a class="button github-button" href="https://github.com/LucasDesignerF/python-music-bot" target="_blank">Ver Repositório no GitHub 📦</a>
+        <a class="discord-icon-button" href="https://discord.gg/z5SkRN495p" target="_blank">
+            <img src="https://imgur.com/9Pilntf.png" alt="Logo do Discord">
+        </a>
+    </div>
+
     <footer>
         &copy; 2019-2024 Rede Gamer - Todos os direitos reservados.
     </footer>
