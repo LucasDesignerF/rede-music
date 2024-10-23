@@ -50,18 +50,18 @@ body {
 }
 ```
 
-Como Usar
+## Como Usar
 Adicione o Bot ao Seu Servidor:
 
-Clique no botão "Adicionar Bot 🤖" para convidar o bot para o seu servidor Discord.
-Acesse o Repositório:
+- Clique no botão "Adicionar Bot 🤖" para convidar o bot para o seu servidor Discord.
+## Acesse o Repositório:
 
-Clique no botão "Ver Repositório no GitHub 📦" para visualizar o código fonte e contribuir para o projeto.
-Participe da Comunidade:
+- Clique no botão "Ver Repositório no GitHub 📦" para visualizar o código fonte e contribuir para o projeto.
+## Participe da Comunidade:
 
-Use o botão com a logo do Discord para se juntar ao nosso servidor e interagir com outros usuários.
-Contribuições
-Contribuições são bem-vindas! Se você deseja ajudar a melhorar o bot ou a página, sinta-se à vontade para enviar pull requests ou abrir issues no repositório do GitHub.
+- Use o botão com a logo do Discord para se juntar ao nosso servidor e interagir com outros usuários.
+## Contribuições
 
-Licença
+- Contribuições são bem-vindas! Se você deseja ajudar a melhorar o bot ou a página, sinta-se à vontade para enviar pull requests ou abrir issues no repositório do GitHub.
+## Licença
 Este projeto é licenciado sob a MIT License. Veja o arquivo LICENSE para mais informações.
