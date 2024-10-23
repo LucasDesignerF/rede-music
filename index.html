@@ -8,47 +8,71 @@
     <link rel="icon" href="https://imgur.com/4H93Znk.png" type="image/png"> <!-- Favicon -->
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: #2c2f33;
             color: #ffffff;
             text-align: center;
             padding: 50px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         h1 {
             color: #7289da;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            max-width: 600px;
         }
         .button {
             color: #ffffff;
             text-decoration: none;
-            padding: 10px;
+            padding: 15px 25px;
             border-radius: 5px;
             margin: 5px; /* Margem entre os botões */
             display: inline-block; /* Para que fiquem lado a lado */
+            transition: background-color 0.3s, transform 0.3s; /* Transição suave */
         }
         .discord-button {
             background-color: #7289da; /* Cor do botão do Discord */
         }
         .discord-button:hover {
             background-color: #5b6eae; /* Hover do botão do Discord */
+            transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
         }
         .github-button {
             background-color: #333; /* Cor escura para o botão do GitHub */
         }
         .github-button:hover {
             background-color: #444; /* Hover do botão do GitHub */
+            transform: translateY(-3px); /* Efeito de elevação ao passar o mouse */
         }
         .bot-image {
             width: 600px; /* Largura da imagem */
             height: 337.34px; /* Altura da imagem */
             margin: 20px 0; /* Margem acima e abaixo da imagem */
+            border-radius: 10px; /* Cantos arredondados para a imagem */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra para a imagem */
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #a0a0a0;
         }
     </style>
 </head>
 <body>
     <h1>🎶 Rede Music, o seu mais novo companheiro de Call! 🤖</h1>
     <img class="bot-image" src="https://imgur.com/d2T7wYy.png" alt="Logo do Bot"> <!-- Imagem do bot -->
-    <p>Adicione o bot ao seu servidor usando o link abaixo:</p>
+    <p>Este bot de música para Discord permite que os usuários reproduzam músicas diretamente de links do YouTube ou arquivos de áudio locais. Com uma interface de comando intuitiva, ele oferece funcionalidades como tocar, pausar, retomar e pular músicas.</p>
     <a class="button discord-button" href="https://discord.com/oauth2/authorize?client_id=1298229980039483392&permissions=8&integration_type=0&scope=bot" target="_blank">Adicionar Bot 🤖</a>
     <a class="button github-button" href="https://github.com/LucasDesignerF/python-music-bot" target="_blank">Ver Repositório no GitHub 📦</a>
+    <footer>
+        &copy; Rede Bots - by Rede Gamer - Since 2019-2024 - Todos os direitos reservados.
+    </footer>
 </body>
 </html>
